@@ -1,5 +1,51 @@
 .App {
   text-align: center;
+  margin: auto;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /* margin-right: 40rem; */
+}
+
+p {
+  font-size: 25px;
+  margin: 0 3rem;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 500px;
+  padding: 5px;
+  margin: auto;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+.fab {
+  margin: 2rem 1rem;
+}
+
+.input {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 6px;
+  padding: 3px 10px;
+  width: 470px;
 }
 
 .App-logo {
